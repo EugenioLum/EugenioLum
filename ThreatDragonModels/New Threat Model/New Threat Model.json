@@ -1,0 +1,27 @@
+{
+  "version": "2.5.0",
+  "summary": {
+    "title": "New Threat Model",
+    "owner": "Julio Eugenio García Lumbreras",
+    "description": "Se planea liberar la nueva versión del Sistema de Administración de la Biblioteca Central, el cual deberá cubrir las diferentes necesidades en el proceso de administración del acervo bibliográfico, de acuerdo a lo que se detalla a continuación.\n\nDeberá contar con un catálogo en línea en el cual una persona pueda consultar la disponibilidad de títulos de la biblioteca, considerando que algunos de ellos podrán ser visualizados de manera digitalizada dentro del catálogo, el acceso deberá ser abierto a todo público y deberá estar disponible las 24 hrs del día.\n\nEs necesario que se cuente con un acceso especial restringido al departamento de circulación para que el personal de dicha área pueda realizas las actividades correspondientes a su área a través de una aplicación que se pueda instalar en su equipo y que desde ese punto se pueda conectar a la base de datos del sistema.\n\nDe la misma manera se necesita un acceso especial restringido para el departamento de préstamos de libros, de manera que el personal pueda atender la solicitud de los usuarios interesados en el préstamo, en este departamento se registran prestamos/devoluciones de libros y se maneja un pequeño sistema de caja para el tema de penalizaciones.\n\nFinalmente, para fines de colaboración con bibliotecas de otras localidades a nivel mundial el sistema deberá implementar la implementación del protocolo Z39.50 a fin de colaborar con los recursos bibliográficos con los que se cuenta.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.5.0",
+        "cells": [],
+        "description": "Catálogo Digital"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Gerardo Bernal Carranza",
+    "threatTop": 0
+  }
+}
