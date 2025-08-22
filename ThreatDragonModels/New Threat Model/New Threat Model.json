@@ -3170,12 +3170,603 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.5.0",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 110,
+              "y": 150
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Bibliotecass"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1db64033-9313-4c8d-8ef8-9d8a127d374f"
+                },
+                {
+                  "group": "right",
+                  "id": "2b55ea51-a008-4722-bae4-b2391b19451e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "d79993e4-666a-4645-8b54-18503d29c57d"
+                },
+                {
+                  "group": "left",
+                  "id": "beeb9dca-6abb-46cf-94ef-57d3f9c21e2f"
+                }
+              ]
+            },
+            "id": "41dddab2-7651-4000-9538-019796c53e68",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Bibliotecass",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 392,
+              "y": 135
+            },
+            "size": {
+              "width": 90,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Consulta\nde Registros"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "46b247b1-3a45-4420-8847-281e278c4dc6"
+                },
+                {
+                  "group": "right",
+                  "id": "a57d4889-3abf-4e25-9aaf-b688ae825d03"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9f7518b9-0d9b-4dd6-ab7e-0b64fa7125eb"
+                },
+                {
+                  "group": "left",
+                  "id": "6b94b1e0-b89e-476f-b3e3-74f946cd5b04"
+                }
+              ]
+            },
+            "id": "69a62fd2-d236-43fc-aeca-791effa1d44e",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Consulta\nde Registros",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "6b3b75d4-f203-431f-8b79-93bd8e02c7cf",
+                  "title": "Fuga de Información",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "No se tiene correctamente filtrada la información que se puede compartir con otras bibliotecas. No existe parámetros bien definidos.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                },
+                {
+                  "id": "6daa0f62-0d47-400a-aaf8-2183f68b2f07",
+                  "title": "No se almacenan registros de acceso",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "El acceso a través del protocolo z.3950 no tiene registros que permitan determinar quien accedió a que información y en qué momento lo hizo.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 638,
+              "y": 150
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "BD de Bibliotecas"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a0389024-4fdf-4a71-9db2-749b4c18b70c"
+                },
+                {
+                  "group": "right",
+                  "id": "da2e0138-e153-46df-9d50-941393e65932"
+                },
+                {
+                  "group": "bottom",
+                  "id": "ed96f18d-5469-472c-9118-faa0328ed319"
+                },
+                {
+                  "group": "left",
+                  "id": "011ca68e-0eea-4eb4-b15c-790d51fbbb3f"
+                }
+              ]
+            },
+            "id": "ed32c212-4dab-4e62-9523-983cadb0dfff",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Store",
+              "name": "BD de Bibliotecas",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consulta de\nDatos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Consulta de\nDatos"
+            ],
+            "id": "c9f0d165-73ec-4ebb-bde0-899a5e62e952",
+            "source": {
+              "cell": "41dddab2-7651-4000-9538-019796c53e68",
+              "port": "2b55ea51-a008-4722-bae4-b2391b19451e"
+            },
+            "target": {
+              "cell": "69a62fd2-d236-43fc-aeca-791effa1d44e",
+              "port": "6b94b1e0-b89e-476f-b3e3-74f946cd5b04"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Procesamiento\nde consulta",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Procesamiento\nde consulta"
+            ],
+            "id": "b14a8ab7-e869-4def-b699-13fcd0ab48c7",
+            "source": {
+              "cell": "69a62fd2-d236-43fc-aeca-791effa1d44e",
+              "port": "a57d4889-3abf-4e25-9aaf-b688ae825d03"
+            },
+            "target": {
+              "cell": "ed32c212-4dab-4e62-9523-983cadb0dfff",
+              "port": "011ca68e-0eea-4eb4-b15c-790d51fbbb3f"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Retorno de Información",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Retorno de Información"
+            ],
+            "id": "eaa6e7ef-3716-46e9-afca-7b247340184f",
+            "source": {
+              "cell": "ed32c212-4dab-4e62-9523-983cadb0dfff",
+              "port": "ed96f18d-5469-472c-9118-faa0328ed319"
+            },
+            "target": {
+              "cell": "69a62fd2-d236-43fc-aeca-791effa1d44e",
+              "port": "9f7518b9-0d9b-4dd6-ab7e-0b64fa7125eb"
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": 225
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Respuesta de Consulta",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Respuesta de Consulta"
+            ],
+            "id": "ae9a7ed3-1759-446f-9b7b-eccd5449038f",
+            "source": {
+              "cell": "69a62fd2-d236-43fc-aeca-791effa1d44e",
+              "port": "9f7518b9-0d9b-4dd6-ab7e-0b64fa7125eb"
+            },
+            "target": {
+              "cell": "41dddab2-7651-4000-9538-019796c53e68",
+              "port": "d79993e4-666a-4645-8b54-18503d29c57d"
+            },
+            "vertices": [
+              {
+                "x": 290,
+                "y": 225
+              }
+            ]
+          }
+        ],
         "description": "Conexión_z3950"
       }
     ],
     "diagramTop": 4,
     "reviewer": "Gerardo Bernal Carranza",
-    "threatTop": 13
+    "threatTop": 15
   }
 }
