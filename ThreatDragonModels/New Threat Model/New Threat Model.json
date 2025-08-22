@@ -887,9 +887,19 @@
           }
         ],
         "description": "Catálogo Digital"
+      },
+      {
+        "id": 1,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.5.0",
+        "cells": [],
+        "description": "Departamento_Circulación"
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 2,
     "reviewer": "Gerardo Bernal Carranza",
     "threatTop": 7
   }
